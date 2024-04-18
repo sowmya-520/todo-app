@@ -1,0 +1,40 @@
+
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+  }
+  
+
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+ 
+  .category-container {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+    border: 6px solid blueviolet;
+   
+  }
+  
+  .category-container:hover {
+
+    transition: background-color 1s ease-in-out;
+    background-color: rgb(199, 160, 236);
+  }
+  
+  
+  .category-name {
+    color: black;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1{
+    font-size: 3cm;
+    color: blueviolet;
+  }
+ 
